@@ -1,12 +1,15 @@
 git init
 git add file_name
 git add .
-git switch to_branch
+git commit -m "comment"
+
 git branch
 git branch new_name
+git switch to_branch
 git merge branch_name
 
 
-git push origin main url
-git pull
-git 
+git remote add origin url
+git push -u origin master (push entire things to github)
+
+git clone url
